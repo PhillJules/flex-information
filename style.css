@@ -5,6 +5,11 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin: 0 auto;
+}
+
+.text {
+text-align: center;
 }
 
 .title {
@@ -17,6 +22,13 @@ img {
 .card-container {
   display: flex;
   justify-content: center;
+}
+
+.card {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 52px;
 }
 /* do not edit this footer */
 .footer {
